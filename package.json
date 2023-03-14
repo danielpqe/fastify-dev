@@ -1,0 +1,42 @@
+{
+  "name": "napd-fastify-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "start:dev": "ts-node src/main.ts",
+    "lint": "eslint 'src/**/*.ts' 'test/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelGSS/napd.git"
+  },
+  "author": "RafaelGSS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RafaelGSS/napd/issues"
+  },
+  "homepage": "https://github.com/RafaelGSS/napd#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@fastify/swagger": "^8.3.1",
+    "@types/node": "^18.15.3",
+    "dotenv": "^16.0.3",
+    "eslint-plugin-import": "^2.27.5",
+    "fastify": "^4.14.1",
+    "fastify-plugin": "^4.5.0",
+    "fastify-swagger": "^5.2.0",
+    "typescript": "^4.9.5"
+  }
+}
