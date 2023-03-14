@@ -7,21 +7,17 @@
     "test": "test"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "./node_modules/typescript/bin/tsc",
     "start": "node dist/main.js",
     "start:dev": "ts-node src/main.ts",
     "lint": "eslint 'src/**/*.ts' 'test/**/*.ts'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RafaelGSS/napd.git"
+    "url": ""
   },
-  "author": "RafaelGSS",
+  "author": "danielpqe",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RafaelGSS/napd/issues"
-  },
-  "homepage": "https://github.com/RafaelGSS/napd#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",

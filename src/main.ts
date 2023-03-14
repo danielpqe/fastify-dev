@@ -5,7 +5,7 @@ import loadApp from "./server";
 async function bootstrap(): Promise<void> {
   const app = Fastify({ logger: { level: Environment.loggerLevel } });
   app.register(loadApp);
-  await app.listen({ port: 8080 }, function (err, address) {
+  await app.listen({ port: 8000 }, function (err, address) {
     if (err) {
       app.log.error(err);
       process.exit(1);
